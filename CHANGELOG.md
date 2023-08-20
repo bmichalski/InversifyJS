@@ -12,6 +12,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
+## [7.0.0]
+
+### Changed
+- Update to typescript typescript 5.1.6
+- Update dev dependencies:
+  - remove dependency to istanbul
+  - update devDependencies versions
+- Improve clean script in package.json
+- Remove .auditignore
+- Simplify .gitignore
+- Remove .npmignore
+- Remove .publishrc file
+- Remove .travis.yml file
+- Improve karma.conf.js
+- Update LICENSE file
+- Update dependencies
+
 ## [6.0.2]
 
 ### Added
