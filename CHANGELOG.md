@@ -15,7 +15,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [7.0.0]
 
 ### Changed
-- Update to typescript typescript 5.1.6
+- Update to typescript 5.1.6
 - Update dev dependencies:
   - remove dependency to istanbul
   - update devDependencies versions
@@ -32,17 +32,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [6.0.2]
 
 ### Added
-Brought tests up to 100% Code Coverage
+- Brought tests up to 100% Code Coverage
 
 ### Changed
-LazyIdentfier Tests
+- LazyIdentfier Tests
 
 ### Fixed
-Less than 100% code coverage
+- Less than 100% code coverage
 
 ## [6.0.1] - 2021-10-14
 ### Added
-- add API method for check dependency only in current container
+- Add API method for check dependency only in current container
 - createTaggedDecorator #1343
 - Async bindings #1132
 - Async binding resolution (getAllAsync, getAllNamedAsync, getAllTaggedAsync, getAsync, getNamedAsync, getTaggedAsync, rebindAsync, unbindAsync, unbindAllAsync, unloadAsync) #1132
@@ -56,11 +56,11 @@ Less than 100% code coverage
 - Singleton scoped services cache resolved values once the result promise is fulfilled #1320
 
 ### Fixed
-- only inject decorator can be applied to setters #1342
+- Only inject decorator can be applied to setters #1342
 - Container.resolve should resolve in that container #1338
 
 ## [5.1.1] - 2021-04-25
--Fix pre-publish for build artifacts
+- Fix pre-publish for build artifacts
 
 ## [5.1.0] - 2021-04-25
 ### Added
@@ -82,7 +82,7 @@ Less than 100% code coverage
 - Change GUID to incremented counter for better performance #882
 
 ### Fixed
-- fix broken compilation by adding `.toString()` so symbols serialization #893
+- Fix broken compilation by adding `.toString()` so symbols serialization #893
 - Fix problem with applying options on Container.resolve (fix #914) #915
 - Fixed documentation issues
 
