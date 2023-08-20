@@ -1,11 +1,11 @@
-var browsers = [
-  // 'Firefox',
+const browsers = [
+  'Firefox',
   'Chrome',
   'IE',
   'PhantomJS'
 ];
 
-var plugins = [
+const plugins = [
   'karma-mocha-reporter',
   'karma-mocha',
   'karma-chai',
@@ -18,7 +18,6 @@ var plugins = [
 ];
 
 module.exports = function (config) {
-
   'use strict';
 
   config.set({
@@ -37,5 +36,4 @@ module.exports = function (config) {
     autoWatch: false,
     logLevel: config.LOG_INFO
   });
-
 };
